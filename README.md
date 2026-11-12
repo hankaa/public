@@ -1,11 +1,8 @@
 # public
 
-Veřejné soubory ke stažení. Soubor patří do složky `soubory/`, po pushi na `main` má přímý odkaz:
+Veřejné soubory ke stažení. Zatím je tu jeden, v kořeni:
 
-```
-https://github.com/hankaa/public/raw/main/soubory/nazev-souboru
-```
+**AGENTS-vzor.md** — vzor návodu AGENTS.md pro AI i pro lidi.
 
-Příklad: `soubory/navod.pdf` → https://github.com/hankaa/public/raw/main/soubory/navod.pdf
-
-GitHub vezme jeden soubor do 100 MB.
+- stránka: https://github.com/hankaa/public/blob/main/AGENTS-vzor.md
+- stažení: https://github.com/hankaa/public/raw/main/AGENTS-vzor.md
