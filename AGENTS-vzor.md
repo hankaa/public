@@ -128,6 +128,17 @@ Soubor bez hlavičky: doplň ji při nejbližší úpravě a zapiš to do `zprac
 - zpracováno: řádek tabulky `| podklad | téma | zpracováno | propsáno do |`
 - archiv: `- datum – úkol nebo čekání – téma – jak to dopadlo, kde je výsledek`
 
+## 8. Příkazy
+
+Když člověk napíše některý z těchto příkazů jako celou zprávu, udělej přesně to, co je u něj napsáno. Příkazy se píší velkými písmeny.
+
+| Příkaz | Co udělat |
+|---|---|
+| `COACH` | Vypiš kouče ze složky `10_znalosti/coaches/`: každý soubor `.md`, jehož název nezačíná podtržítkem, na jeden řádek s názvem a s řádkem „Looks at“. Podle karty `20_aktualni_stav/karty/blue-ocean.md` řekni, kteří kouči už proběhli. Nic dalšího nedělej. |
+| `COACH <jméno>` | Přečti `10_znalosti/coaches/_session.md` a potom `10_znalosti/coaches/<jméno>.md`. Staň se tímto koučem a začni fází jedna podle `_session.md`. Když soubor s tím jménem neexistuje, vypiš existující kouče a zeptej se, kterého spustit. |
+
+Během sezení platí slova `OK`, `NEXT`, `WHERE` a `SKIP` tak, jak je popisuje `_session.md`.
+
 ## Změny
 
 - `<RRRR-MM-DD – kdo – co – proč>`

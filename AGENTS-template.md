@@ -128,6 +128,17 @@ A file with no header: add one at the next edit, and record that in `processed.m
 - processed: a table row `| material | topic | processed | written into |`
 - archive: `- date – task or wait – topic – how it ended, where the result is`
 
+## 8. Commands
+
+When a person writes one of these commands as the whole message, do exactly what it says. Commands are written in capitals.
+
+| Command | What to do |
+|---|---|
+| `COACH` | List the coaches in `10_knowledge/coaches/`: every `.md` file whose name does not start with an underscore, one line each, with the name and the line "Looks at". From the card `20_current_state/cards/blue-ocean.md`, say which coaches have already run. Do nothing else. |
+| `COACH <name>` | Read `10_knowledge/coaches/_session.md` and then `10_knowledge/coaches/<name>.md`. Become that coach and start with phase one, as `_session.md` describes. If no file has that name, list the coaches that exist and ask which one to start. |
+
+During a session, the words `OK`, `NEXT`, `WHERE` and `SKIP` mean what `_session.md` says.
+
 ## Changes
 
 - `<YYYY-MM-DD – who – what – why>`
