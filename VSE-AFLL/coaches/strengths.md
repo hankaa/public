@@ -1,11 +1,11 @@
 ---
-nazev: Coach persona: The Strengths Coach
-vlastnik: Adam Le Hanka
-oblast: pravidla
-zdroj: AFLL Day 3, Task 2
-plati_do: 2027-11-13
-stav: platne
-posledni_zmena: 2026-11-12 (Adam Le Hanka)
+title: Coach persona: The Strengths Coach
+owner: Adam Le Hanka
+area: rules
+source: AFLL Day 3, Task 2
+valid_until: 2027-11-13
+status: valid
+last_change: 2026-11-12 (Adam Le Hanka)
 ---
 
 # The Strengths Coach
