@@ -13,14 +13,14 @@ Task 1 and Task 2 both work inside this folder.
 ## What you need
 
 - A laptop with your AI agent, able to read and write files in a folder you choose.
-- The template: [AGENTS-vzor.md](https://github.com/hankaa/public/raw/main/AGENTS-vzor.md)
+- The template: [AGENTS-template.md](https://github.com/hankaa/public/raw/main/AGENTS-template.md)
 
-The template is in Czech. You can talk to the assistant in Czech or English.
+The template is in English. You can talk to the assistant in Czech or English.
 
 ## Step 1 · Make the folder
 
 1. Create a new, empty folder on your computer. Give it a name you will recognise, for example `my-projects`.
-2. Download [AGENTS-vzor.md](https://github.com/hankaa/public/raw/main/AGENTS-vzor.md) and save it into that folder.
+2. Download [AGENTS-template.md](https://github.com/hankaa/public/raw/main/AGENTS-template.md) and save it into that folder.
 3. Open the folder in your AI agent and start a new chat.
 
 ## How it works
@@ -54,7 +54,7 @@ HOW THE SESSION MOVES
 The session has five phases. When a phase starts, write its name in capitals on its own line, exactly as written below, then one sentence telling me what to do. Never skip a phase. If I write NEXT, move to the next phase. If I write WHERE, tell me which phase we are in and what is left.
 
 PHASE ONE · READ
-Start here, right now. Find the template in the root of the folder. If it is still called AGENTS-vzor.md, rename it to AGENTS.md. Read all of it. If you cannot read or write files in this folder, tell me now and stop, because this task needs file access. Then tell me in three plain sentences what this folder will do for me, and go to phase two.
+Start here, right now. Find the template in the root of the folder. If it is still called AGENTS-template.md, rename it to AGENTS.md. Read all of it. If you cannot read or write files in this folder, tell me now and stop, because this task needs file access. Then tell me in three plain sentences what this folder will do for me, and go to phase two.
 
 PHASE TWO · QUESTIONS
 Ask me these, one at a time, and wait for each answer.
@@ -69,11 +69,11 @@ Ask me these, one at a time, and wait for each answer.
 If an answer is vague, ask once for a concrete example. Do not suggest answers.
 
 PHASE THREE · AGENTS.MD
-Fill in AGENTS.md with my answers, in my words. Replace every <placeholder>. Where a placeholder already contains a suggested value, such as a number of days or months, keep that value. Add "poznamky" to the kinds of source material. If my answer to question 8 was no, delete section 6. Remove the note addressed to the person setting the file up, as the note itself asks. In the header set the owner, today's date as the last change, a review date one year from today, and stav: platne. Add one line to the change log at the end.
+Fill in AGENTS.md with my answers, in my words. Replace every <placeholder>. Where a placeholder already contains a suggested value, such as a number of days or months, keep that value. Add "notes" to the kinds of source material. If my answer to question 8 was no, delete section 6. Remove the note addressed to the person setting the file up, as the note itself asks. In the header set the owner, today's date as the last change, a review date one year from today, and status: valid. Add one line to the change log at the end.
 Then show me section 1 and the header, and ask me whether anything is wrong. Correct it. Stay in this phase until I write OK.
 
 PHASE FOUR · SKELETON
-Create the folders and files that AGENTS.md names, and nothing else: 00_podklady/poznamky/, 10_znalosti/rozhodnuti.md, 20_aktualni_stav/karty/, 20_aktualni_stav/todo.md, 20_aktualni_stav/cekame-na.md, 30_vystupy/, _archiv/archiv-ukolu.md and zpracovano.md. Give each file the header AGENTS.md asks for and, where AGENTS.md defines one, the empty table or section it needs. Write no content of your own.
+Create the folders and files that AGENTS.md names, and nothing else: 00_materials/notes/, 10_knowledge/decisions.md, 20_current_state/cards/, 20_current_state/todo.md, 20_current_state/waiting-on.md, 30_outputs/, _archive/task-archive.md and processed.md. Give each file the header AGENTS.md asks for and, where AGENTS.md defines one, the empty table or section it needs. Write no content of your own.
 
 PHASE FIVE · CHECK
 Show me the folder as a tree. Then answer this from AGENTS.md alone, in two sentences: where does a voice note about a new project go, and what happens to it next? Finally check that no <placeholder> is left in AGENTS.md and tell me the result. Then write END OF SETUP.
@@ -86,27 +86,27 @@ Begin with phase one now.
 ```
 my-projects/
 ├── AGENTS.md
-├── 00_podklady/
-│   └── poznamky/
-├── 10_znalosti/
-│   └── rozhodnuti.md
-├── 20_aktualni_stav/
-│   ├── karty/
+├── 00_materials/
+│   └── notes/
+├── 10_knowledge/
+│   └── decisions.md
+├── 20_current_state/
+│   ├── cards/
 │   ├── todo.md
-│   └── cekame-na.md
-├── 30_vystupy/
-├── _archiv/
-│   └── archiv-ukolu.md
-└── zpracovano.md
+│   └── waiting-on.md
+├── 30_outputs/
+├── _archive/
+│   └── task-archive.md
+└── processed.md
 ```
 
 | Folder | In plain words |
 |---|---|
-| `00_podklady` | Raw material, exactly as it came. You only add to it. |
-| `10_znalosti` | What holds for a long time, for example decisions. |
-| `20_aktualni_stav` | What is true right now: a card per project, your to-dos, what you are waiting for. |
-| `30_vystupy` | What leaves the folder. |
-| `_archiv` | Finished and outdated things. Nothing is deleted. |
+| `00_materials` | Raw material, exactly as it came. You only add to it. |
+| `10_knowledge` | What holds for a long time, for example decisions. |
+| `20_current_state` | What is true right now: a card per project, your to-dos, what you are waiting for. |
+| `30_outputs` | What leaves the folder. |
+| `_archive` | Finished and outdated things. Nothing is deleted. |
 
 ## You are done when
 

@@ -30,12 +30,12 @@ You paste **one prompt**. It sets up a coach and runs the whole session in six p
 
 | Phase | What happens | Your part | What lands in your folder |
 |---|---|---|---|
-| PHASE ONE · DICTATION | The coach only listens | Name the project, talk until it is all out, then write `DONE` | your dictation in `00_podklady/poznamky/` |
+| PHASE ONE · DICTATION | The coach only listens | Name the project, talk until it is all out, then write `DONE` | your dictation in `00_materials/notes/` |
 | PHASE TWO · QUESTIONS | It asks what is missing, one question at a time | Answer by voice | |
-| PHASE THREE · COACHING | It coaches you: goal, reality, options, first step | Answer honestly, push back if it is wrong | your answers in `00_podklady/poznamky/` |
-| PHASE FOUR · CARD | It writes the one-page card of your project | Find one thing that is wrong, then write `OK` | card in `20_aktualni_stav/karty/`, decisions in `10_znalosti/rozhodnuti.md` |
-| PHASE FIVE · TO-DOS | It proposes five to-dos | Replace the one you would not do, then write `OK` | `todo.md` and `cekame-na.md` |
-| PHASE SIX · EMAIL | It drafts your summary email | Edit it and send it yourself | draft in `30_vystupy/`, rows in `zpracovano.md` |
+| PHASE THREE · COACHING | It coaches you: goal, reality, options, first step | Answer honestly, push back if it is wrong | your answers in `00_materials/notes/` |
+| PHASE FOUR · CARD | It writes the one-page card of your project | Find one thing that is wrong, then write `OK` | card in `20_current_state/cards/`, decisions in `10_knowledge/decisions.md` |
+| PHASE FIVE · TO-DOS | It proposes five to-dos | Replace the one you would not do, then write `OK` | `todo.md` and `waiting-on.md` |
+| PHASE SIX · EMAIL | It drafts your summary email | Edit it and send it yourself | draft in `30_outputs/`, rows in `processed.md` |
 
 Four words steer the session: `DONE` ends your dictation, `OK` accepts a result, `NEXT` jumps to the next phase, `WHERE` tells you where you are.
 
@@ -65,7 +65,7 @@ The session has six phases. When a phase starts, write its name in capitals on i
 
 PHASE ONE · DICTATION
 Start here, right now. Ask me for a short name for the project, one or two words. Use it as the topic name in file names. Then ask me to dictate everything about the project and to write DONE when I have finished. While I dictate, reply only: "Keep going, or write DONE." Ask nothing else yet.
-When I write DONE (or HOTOVO), save my dictation word for word as a new source file in 00_podklady/poznamky/. Do not tidy it.
+When I write DONE (or HOTOVO), save my dictation word for word as a new source file in 00_materials/notes/. Do not tidy it.
 
 PHASE TWO · QUESTIONS
 Ask up to five questions, one at a time, to fill the gaps in the facts: what it is and who it is for, where it stands today, who else is involved, deadlines, how I will know it is done. Skip anything my dictation already covered and ask about the vaguest thing I said instead. After my last answer, go straight to phase three.
@@ -76,18 +76,18 @@ Goal: what I really want from this, and why it matters to me and not to anyone e
 Reality: what is actually stopping me. Push once if my answer sounds like an excuse.
 Options: two different ways to move it forward this week. If I give one, ask for another.
 Will: the very first step, and exactly when I will take it.
-Use at most six questions. When I have named a first step and a time, save my answers from phases two and three, word for word, as a second source file in 00_podklady/poznamky/. Then go to phase four.
+Use at most six questions. When I have named a first step and a time, save my answers from phases two and three, word for word, as a second source file in 00_materials/notes/. Then go to phase four.
 
 PHASE FOUR · CARD
-Write the card of this project in 20_aktualni_stav/karty/. One page. Sections: Goal · Where it stands now · People and roles · Deadlines · Risks and contradictions · History. Use only what is in the two source files, and give every fact its source. Put decisions I have already made into 10_znalosti/rozhodnuti.md. Where something is missing, do not guess: add it to todo.md as a MEZERA line. If section 1 of AGENTS.md still contains placeholders, propose text for it and write it only after I agree.
+Write the card of this project in 20_current_state/cards/. One page. Sections: Goal · Where it stands now · People and roles · Deadlines · Risks and contradictions · History. Use only what is in the two source files, and give every fact its source. Put decisions I have already made into 10_knowledge/decisions.md. Where something is missing, do not guess: add it to todo.md as a GAP line. If section 1 of AGENTS.md still contains placeholders, propose text for it and write it only after I agree.
 Show me the card and ask me to find one thing that is wrong, too polished, or that I never said. Correct it. Stay in this phase until I write OK.
 
 PHASE FIVE · TO-DOS
-Add five to-dos for the next seven days to 20_aktualni_stav/todo.md: each starts with a verb, has a date, and is concrete enough that a camera could record me doing it. Put what I am waiting for from other people into 20_aktualni_stav/cekame-na.md. Show me both lists, ask me which to-do I would not really do, and replace it. Stay in this phase until I write OK.
+Add five to-dos for the next seven days to 20_current_state/todo.md: each starts with a verb, has a date, and is concrete enough that a camera could record me doing it. Put what I am waiting for from other people into 20_current_state/waiting-on.md. Show me both lists, ask me which to-do I would not really do, and replace it. Stay in this phase until I write OK.
 
 PHASE SIX · EMAIL
-Write a short email from me to Adam and save it as a draft in 30_vystupy/. In my voice, plain text, under 150 words, in English: the project in three sentences, my five to-dos with dates, and one line on what your questions made me realise. Do not send it. I send it myself.
-Add both source files to zpracovano.md. Then write END OF SESSION and list every file you created or changed.
+Write a short email from me to Adam and save it as a draft in 30_outputs/. In my voice, plain text, under 150 words, in English: the project in three sentences, my five to-dos with dates, and one line on what your questions made me realise. Do not send it. I send it myself.
+Add both source files to processed.md. Then write END OF SESSION and list every file you created or changed.
 
 Begin with phase one now.
 ```
@@ -103,7 +103,7 @@ If the coach forgets a phase name or starts giving advice, write `WHERE` or remi
 
 ## Step 3 · Send the summary
 
-Open the draft in `30_vystupy/`, read it, and change whatever does not sound like you. Then send it yourself:
+Open the draft in `30_outputs/`, read it, and change whatever does not sound like you. Then send it yourself:
 
 - **To:** adam.hanka@trpaizlici.cz
 - **Subject:** `AFLL Task 1 - Surname Name`
