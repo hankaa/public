@@ -11,3 +11,7 @@ Veřejné soubory ke stažení. Jsou v kořeni:
 
 - stránka: https://github.com/hankaa/public/blob/main/AGENTS-template.md
 - stažení: https://github.com/hankaa/public/raw/main/AGENTS-template.md
+
+**VSE-AFLL/** — úkoly pro studentky Authentic Female Leadership Lab, Den 3.
+
+- stránka: https://github.com/hankaa/public/tree/main/VSE-AFLL
